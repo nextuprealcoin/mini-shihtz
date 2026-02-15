@@ -4,62 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini ShihTz – Premium Imperial Shih Tzus</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Premium Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="assets/css/style.css?v=3">
 </head>
 
 <body>
 
-<header class="site-header">
-    <div class="logo">Mini ShihTz</div>
-    <nav>
-        <ul>
-            <li><a href="puppies.html">Puppies</a></li>
-            <li><a href="parents.html">Parents</a></li>
-            <li><a href="care-guide.html">Care Guide</a></li>
-            <li><a href="breed-history.html">Breed History</a></li>
-            <li><a href="recommended-products.html">Products</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="logo">Mini ShihTz</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="puppies.html">Puppies</a></li>
+                <li><a href="parents.html">Parents</a></li>
+                <li><a href="care-guide.html">Care Guide</a></li>
+                <li><a href="breed-history.html">Breed History</a></li>
+                <li><a href="recommended-products.html">Products</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section class="hero">
-    <h1>Premium Imperial Shih Tzus</h1>
-    <p>Luxury. Lineage. Love. Raised with intention, bred for excellence.</p>
-    <a href="puppies.html" class="btn">View Available Puppies</a>
-</section>
+    <!-- HERO SECTION WITH VIDEO -->
+    <section class="hero">
 
-<section>
-    <div class="container">
-        <div class="card-grid">
-
-            <div class="card">
-                <img src="assets/images/branding/puppy-placeholder.jpg">
-                <h3>Available Puppies</h3>
-                <p>Explore our current Imperial Shih Tzu puppies ready for reservation.</p>
-                <a href="puppies.html" class="btn">View Puppies</a>
-            </div>
-
-            <div class="card">
-                <img src="assets/images/branding/parents-placeholder.jpg">
-                <h3>Our Parents</h3>
-                <p>Meet the exceptional lineage behind every Mini ShihTz puppy.</p>
-                <a href="parents.html" class="btn">Meet Parents</a>
-            </div>
-
-            <div class="card">
-                <img src="assets/images/branding/care-placeholder.jpg">
-                <h3>Care Guide</h3>
-                <p>Nutrition, grooming, training, and long‑term health for your Shih Tzu.</p>
-                <a href="care-guide.html" class="btn">Learn More</a>
-            </div>
-
+        <div class="hero-video">
+            <video autoplay muted loop playsinline>
+                <source src="assets/videos/hero.mp4" type="video/mp4">
+            </video>
         </div>
-    </div>
-</section>
 
-<footer>
-    <p>© Mini ShihTz — Premium Imperial Shih Tzus</p>
-</footer>
+        <h1 class="animated-gold cinzel" style="font-size:4.2rem;">
+            Mini ShihTz
+        </h1>
+
+        <p>
+            A boutique Imperial Shih Tzu experience — lineage, luxury, and love.
+        </p>
+
+        <a href="puppies.html" class="btn glow-hover">View Available Puppies</a>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- FEATURED SECTIONS -->
+    <section>
+        <div class="container">
+
+            <h2 class="animated-gold" style="text-align:center; font-size:2.6rem;">
+                Explore Mini ShihTz
+            </h2>
+
+            <div class="card-grid">
+
+                <div class="card glow-hover">
+                    <img src="assets/images/branding/puppy-placeholder.jpg" alt="Available Puppies">
+                    <h3>Available Puppies</h3>
+                    <p>Meet our current Imperial Shih Tzu puppies ready for reservation.</p>
+                    <a href="puppies.html" class="btn glow-hover">View Puppies</a>
+                </div>
+
+                <div class="card glow-hover">
+                    <img src="assets/images/branding/parents-placeholder.jpg" alt="Parent Dogs">
+                    <h3>Our Parents</h3>
+                    <p>Explore the lineage and temperament behind every Mini ShihTz puppy.</p>
+                    <a href="parents.html" class="btn glow-hover">Meet Parents</a>
+                </div>
+
+                <div class="card glow-hover">
+                    <img src="assets/images/branding/care-placeholder.jpg" alt="Care Guide">
+                    <h3>Care Guide</h3>
+                    <p>Nutrition, grooming, training, and long‑term health for your Shih Tzu.</p>
+                    <a href="care-guide.html" class="btn glow-hover">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- WHY IMPERIAL SHIH TZUS -->
+    <section>
+        <div class="container" style="text-align:center;">
+
+            <h2 class="animated-gold" style="font-size:2.6rem;">
+                Why Imperial Shih Tzus?
+            </h2>
+
+            <p style="max-width:800px; margin:20px auto; color:var(--color-text-muted); font-size:1.2rem;">
+                A breed rooted in royalty — cherished for their expressive eyes, luxurious coats, and unmatched companionship.
+                Mini ShihTz preserves the elegance, temperament, and heritage that make Imperial Shih Tzus truly extraordinary.
+            </p>
+
+            <a href="breed-history.html" class="btn glow-hover">Explore the History</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© Mini ShihTz — Premium Imperial Shih Tzus</p>
+    </footer>
 
 </body>
 </html>
