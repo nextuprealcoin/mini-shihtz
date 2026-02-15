@@ -218,3 +218,11 @@ footer {
     color: var(--color-text-muted);
     border-top: 1px solid rgba(255,255,255,0.05);
 }
+
+.hero {
+    background: radial-gradient(circle at center, #1a1a1a, #000000);
+    position: relative;
+    padding: 220px 20px;
+    text-align: center;
+    overflow: hidden;
+}
